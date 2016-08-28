@@ -493,13 +493,13 @@ g[i][j]=dp[i][j]+g[i-2][j];
 
 * 求
 
-$$
+<p><script type="math/tex; mode=display" id="MathJax-Element-1">
 \sum_{i=k}^{n} \left[ \left( \prod_{j=1}^{k}(i-k+j) \right) \times \binom{n}{i} \times z^{i-k} \right]
-$$
+</script></p>
 
 ##### 题解
 
-$$
+<p><script type="math/tex; mode=display" id="MathJax-Element-2">
 \begin{aligned}
 & \sum_{i=k}^{n} \left[ \left( \prod_{j=1}^{k}(i-k+j) \right) \times \binom{n}{i} \times z^{i-k} \right] \\
 = & \sum_{i=k}^{n} \left[ \frac{i!}{(i-k)!} \times \frac{n!}{i! \times (n-i)!} \times z^{i-k} \right] \\
@@ -509,7 +509,7 @@ $$
 = & \sum_{i=0}^{n-k} \left[ \binom{n-k}{i} \times z^{i} \right] \times \frac{n!}{(n-k)!} \\
 = & (z+1)^{n-k} \times \frac{n!}{(n-k)!} \\
 \end{aligned}
-$$
+</script></p>
 
 ## Day13
 
