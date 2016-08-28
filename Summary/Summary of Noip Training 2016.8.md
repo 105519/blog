@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Summary of Noip Training 2016.8</title>
+<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+
 # Summary of Noip 2016 Training
 
 ## Day1
@@ -548,4 +558,6 @@ g[i][j]=dp[i][j]+g[i-2][j];
 ##### 题解
 
 * 树形dp，2遍
+
+</html>
 
