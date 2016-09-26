@@ -1,6 +1,6 @@
 # Summary of Noip&Hnoi Training
 
-## <font color=red>A</font><font color=purple>u</font><font color=green>g</font> <font color=pink>2</font><font color=blue>7</font>
+## <font color=red>A</font><font color=purple>u</font><font color=green>g</font> <font color=orange>2</font><font color=blue>7</font>
 
 ### A 大胖吃花生(10/20)
 
@@ -17,6 +17,12 @@
 ### ~~savecat (100/100)~~
 
 ### study
+
+#### 题目
+
+* n个点，m条无向边，每次求连上第L-R条边后，图中有多少联通块
+
+#### 题解
 
 * ***unfinished***
 
@@ -72,17 +78,27 @@
 
 ## <font color=blue>Sep 8</font>
 
-### equation 解方程
+### equation (30/30)
 
 * ***unfinished***
 
-### blackflip 游戏
+### blackflip (50/30)
 
 * ***unfinished***
 
-### graph
+### graph (50/100)
 
-* ***unfinished***
+#### 题目
+
+* 给定一张无向图，动态加边/删边，求是否为二分图
+
+#### 题解
+
+* 离线，对图维护一颗删除时间的最大生成树
+
+  加入新的边时若是删旧边，且旧边与树形成奇环，则将旧边加入集合S
+
+  删除边时要在S中同时删除，询问就成了问S集合为不为空
 
 ## <font color=green>Sep 10</font>
 
@@ -175,4 +191,85 @@
 ### ~~updown (100/100)~~
 
 ### ~~transport (100/100)~~
+
+## <font color=blue>Sep 15</font>
+
+### sad (10/10)
+
+* ***unfinished***
+
+### new (80/60)
+
+* ***unfinished***
+
+### tri(0/0)
+
+* ***unfinished***
+
+## <font color=green>Sep 16</font>
+
+### ~~magician (100/100)~~
+
+### ~~guard (100/100)~~
+
+### laser(95/100)
+
+* ***unfinished***
+
+## <font color=green>Sep 20</font>
+
+### ~~copy (100/100)~~
+
+### game (0/0)
+
+#### 题目
+
+* 求出6个只含有4与7的不超过m位的数(eg.447744)，可以有0，使它们经过加减后等于n
+
+#### 题解
+
+* dp\[k\]\[i\]\[j\]\[val\]:第k位，i个正数，j个负数，上一次进位为val的方案数
+
+* 口胡超级简单，实现起来2333...
+
+### sxbk(10/100)
+
+#### 题目
+
+* 计算几何，给你一个凸包，多组询问一条直线在凸包里面的线段有多长
+
+#### 题解
+
+* 旋转卡壳+二分答案，其实打对了，被样例坑了...
+
+## <font color=blue>Sep 22</font>
+
+### party (20/20)
+
+* ***unfinished***
+
+### block (0/0)
+
+* ***unfinished***
+
+### exploration (10/10)
+
+#### 题目
+
+* 给你一个图，任务一求m条点不重复的路径(S与T除外)的最短路，任务二求边不重复的最短路
+
+#### 题解
+
+* 拆点费用流
+
+* <font color=red>题目很简单，只是套了几层伪装就没看出来了...</font>
+
+## <font color=green>Sep 24</font>
+
+### ~~number (100/100)~~
+
+### ~~matrix (100/100)~~
+
+### ~~divisor (100/100)~~
+
 
