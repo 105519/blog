@@ -1,8 +1,8 @@
-# Primary School Math ~~小学~~奥数
+﻿# Primary School Math ~~小学~~奥数
 
 ### 前言
 
-* 好的，今天我们来讲 **真•<font color=red>小学</font>奥数**
+* 好的，今天我们来讲 **真?<font color=red>小学</font>奥数**
 
 ### 7647:余数相同问题
 

@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Summary of Noip Training 2016.8</title>
-<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
-</head>
-
-# Summary of Noip 2016 Training
+﻿# Summary of Noip 2016 Training
 
 ## Day1
 
@@ -311,7 +301,7 @@
 
 ##### 题面
 
-* F\[i\]\[j\] = a * F\[i\]\[j−1\] + b * F\[i−1\]\[j\]
+* F\[i\]\[j\] = a * F\[i\]\[j?1\] + b * F\[i?1\]\[j\]
 
    给定a,b与F的第一行第一列，求F\[n\]\[m\]
 
@@ -503,13 +493,13 @@ g[i][j]=dp[i][j]+g[i-2][j];
 
 * 求
 
-<p><script type="math/tex; mode=display" id="MathJax-Element-1">
+$$
 \sum_{i=k}^{n} \left[ \left( \prod_{j=1}^{k}(i-k+j) \right) \times \binom{n}{i} \times z^{i-k} \right]
-</script></p>
+$$
 
 ##### 题解
 
-<p><script type="math/tex; mode=display" id="MathJax-Element-2">
+$$
 \begin{aligned}
 & \sum_{i=k}^{n} \left[ \left( \prod_{j=1}^{k}(i-k+j) \right) \times \binom{n}{i} \times z^{i-k} \right] \\
 = & \sum_{i=k}^{n} \left[ \frac{i!}{(i-k)!} \times \frac{n!}{i! \times (n-i)!} \times z^{i-k} \right] \\
@@ -519,7 +509,7 @@ g[i][j]=dp[i][j]+g[i-2][j];
 = & \sum_{i=0}^{n-k} \left[ \binom{n-k}{i} \times z^{i} \right] \times \frac{n!}{(n-k)!} \\
 = & (z+1)^{n-k} \times \frac{n!}{(n-k)!} \\
 \end{aligned}
-</script></p>
+$$
 
 ## Day13
 
@@ -559,5 +549,5 @@ g[i][j]=dp[i][j]+g[i-2][j];
 
 * 树形dp，2遍
 
-</html>
+> Written with [StackEdit](https://stackedit.io/).
 
